@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redux js</title>
+
+    <style>
+
+        body{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1{
+            font-size: 82px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 35px;
+        }
+
+        #total{
+            background: #c628ff68;
+            padding: 3px;
+        }
+
+        button{
+            background: #95959568;
+            border: none;
+            outline: none;
+            padding: 8px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>simple redux application</h1>
+
+    <p>total: <span id="total">0</span></p>
+
+    <button id="inc">increase </button>
+    <button id="dec">decrease </button>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.2.1/redux.min.js" ></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
